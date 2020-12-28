@@ -1,0 +1,7 @@
+.timer-card-component {
+    background: linear-gradient(150deg, rgba(255, 174, 0, 0.726), rgba(0, 153, 255, 0.7));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
