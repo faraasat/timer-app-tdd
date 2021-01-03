@@ -1,0 +1,23 @@
+.timer-component-root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer-component-alignment {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer-component-alignment > * {
+    margin: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .timer-component-alignment > * {
+      margin: 5.5vw;
+  }
+}

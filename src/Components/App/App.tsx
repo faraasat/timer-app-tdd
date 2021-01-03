@@ -1,20 +1,18 @@
 import "./App.css";
 import { Container } from "@material-ui/core";
-import { CustomCard } from "../../listing";
+import { CustomCard, ParticlesBody, Timer } from "../../listing";
 
 function App() {
   return (
     <div>
+      <ParticlesBody />
       <Container
         maxWidth="sm"
-        style={{
-          minHeight: "100vh",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
+        className='app-container'
       >
-        <CustomCard>Hello World</CustomCard>
+        <CustomCard>
+          <Timer />
+        </CustomCard>
       </Container>
     </div>
   );

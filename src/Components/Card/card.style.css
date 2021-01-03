@@ -1,7 +1,24 @@
 .timer-card-component {
-    background: linear-gradient(150deg, rgba(255, 174, 0, 0.726), rgba(0, 153, 255, 0.7));
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
+  background: linear-gradient(
+    150deg,
+    rgba(251, 255, 0, 0.6),
+    rgba(102, 255, 0, 0.6)
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 7px;
+  box-shadow: 1px 1px 10px 5px rgba(255, 0, 255, 0.466);
+}
+
+@media only screen and (max-width: 600px) {
+  .timer-card-component {
+    width: 100vw !important;
+    height: 100vh !important;
+    margin: 0 !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    box-shadow: none;
+  }
 }

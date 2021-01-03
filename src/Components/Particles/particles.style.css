@@ -1,0 +1,8 @@
+#tsparticles {
+  background-image: url("https://cdn.matteobruni.it/images/particles/background3.jpg");
+  position: absolute;
+  z-index: -10;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+}

@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Particle Component Shallow Render should match snapshot 1`] = `"<h id=\\"tsparticles\\" options={{...}} width=\\"100%\\" height=\\"100%\\" style={{...}} />"`;

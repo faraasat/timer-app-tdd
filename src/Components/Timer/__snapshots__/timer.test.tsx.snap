@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Timer Component Shallow Render should match snapshot 1`] = `
+"<div className=\\"timer-component-root\\">
+  <TimerScreenComponent playState={false} pauseState={false} resetState={false} setResetState={[Function: bound _dispatchAction]} />
+  <div className=\\"timer-component-alignment\\">
+    <TimerButtonComponent id=\\"start-timer\\" onClick={[Function: onClick]} toggle={false} IconComponent={{...}} color=\\"green\\" />
+    <TimerButtonComponent id=\\"stop-timer\\" onClick={[Function: onClick]} toggle={false} IconComponent={{...}} color=\\"red\\" />
+    <TimerButtonComponent id=\\"pause-timer\\" onClick={[Function: onClick]} toggle={false} IconComponent={{...}} color=\\"blue\\" />
+  </div>
+</div>"
+`;

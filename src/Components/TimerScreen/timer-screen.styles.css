@@ -1,0 +1,35 @@
+.timer-screen {
+  background: linear-gradient(
+    230deg,
+    rgba(255, 145, 0, 0.96),
+    rgba(0, 174, 255, 0.96),
+    rgba(247, 0, 255, 0.96)
+  );
+  color: silver;
+  padding: 20px 40px;
+  font-family: "Black Rose", sans-serif;
+  font-size: 45px;
+  border-radius: 10px;
+  box-shadow: 8px 8px 15px rgba(1, 1, 1, 0.7);
+  cursor: pointer;
+  transition: transform 0.3s ease-in;
+  border: 5px ridge #fff;
+}
+
+.timer-screen:hover {
+  transform: scale(1.05);
+  box-shadow: 10px 10px 20px rgba(1, 1, 1, 0.7);
+  border: 5px groove #fff;
+}
+
+.timer-screen:active {
+  transform: scale(0.98);
+  box-shadow: 6px 6px 12px rgba(1, 1, 1, 0.7);
+}
+
+@media only screen and (max-width: 600px) {
+  .timer-screen {
+    padding: 5vw 10vw;
+    font-size: 9vw;
+  }
+}

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Timer Component Shallow Render should match snapshot 1`] = `
+"<div className=\\"timer-screen\\">
+  <span className=\\"timer-screen__display\\">
+    00
+     
+    <span className=\\"timer-screen__symbol\\">
+      :
+    </span>
+     
+    00
+     
+    <span className=\\"timer-screen__symbol\\">
+      :
+    </span>
+     
+    00
+     
+    <span className=\\"timer-screen__symbol\\">
+      :
+    </span>
+     
+    00
+  </span>
+</div>"
+`;
