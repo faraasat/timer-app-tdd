@@ -1,4 +1,4 @@
-# 👨‍💻 Expense Tracker App (Progressive Web App).
+# 👨‍💻 React Timer App (Progressive Web App).
 ## 📽 A project based on Panacloud React Bootcamp [Project 7B].
 
 ### ⚒ Project Demo:
